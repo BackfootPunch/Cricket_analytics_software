@@ -1,0 +1,33 @@
+Match_ID,Team1,Team2,Venue,Predicted_Winner,Team1_Win_Prob_%,Team2_Win_Prob_%,Toss_Winner,Toss_Decision
+1,London Spirit,Oval Invincibles,"Lord's, London",London Spirit,56.0,44.0,Team A,Bowl
+2,Manchester Originals,Southern Brave,"Emirates Old Trafford, Manchester",Southern Brave,48.5,51.5,Team B,Bowl
+3,Northern Superchargers,Welsh Fire,"Headingley, Leeds",Northern Superchargers,55.3,44.7,Team A,Bowl
+4,Birmingham Phoenix,Trent Rockets,"Edgbaston, Birmingham",Birmingham Phoenix,49.5,50.5,Team B,Bat
+5,Oval Invincibles,Manchester Originals,"Kennington Oval, London",Oval Invincibles,46.3,53.7,Team B,Bowl
+6,Welsh Fire,London Spirit,"Sophia Gardens, Cardiff",Welsh Fire,55.1,44.9,Team A,Bowl
+7,Southern Brave,Birmingham Phoenix,"The Rose Bowl, Southampton",Birmingham Phoenix,40.1,59.9,Team B,Bowl
+8,Trent Rockets,Northern Superchargers,"Trent Bridge, Nottingham",Northern Superchargers,52.0,48.0,Team A,Bat
+9,Manchester Originals,London Spirit,"Emirates Old Trafford, Manchester",Manchester Originals,43.4,56.6,Team B,Bowl
+10,Birmingham Phoenix,Oval Invincibles,"Edgbaston, Birmingham",Birmingham Phoenix,53.7,46.3,Team A,Bowl
+11,Southern Brave,Northern Superchargers,"The Rose Bowl, Southampton",Northern Superchargers,52.1,47.9,Team A,Bowl
+12,Welsh Fire,Manchester Originals,"Sophia Gardens, Cardiff",Welsh Fire,45.3,54.7,Team B,Bowl
+13,London Spirit,Trent Rockets,"Lord's, London",London Spirit,58.9,41.1,Team A,Bat
+14,Northern Superchargers,Birmingham Phoenix,"Headingley, Leeds",Birmingham Phoenix,44.1,55.9,Team B,Bowl
+15,Trent Rockets,Southern Brave,"Trent Bridge, Nottingham",Southern Brave,45.8,54.2,Team B,Bowl
+16,Oval Invincibles,Welsh Fire,"Kennington Oval, London",Oval Invincibles,56.7,43.3,Team A,Bowl
+17,Manchester Originals,Northern Superchargers,"Emirates Old Trafford, Manchester",Manchester Originals,50.6,49.4,Team A,Bowl
+18,Birmingham Phoenix,London Spirit,"Edgbaston, Birmingham",Birmingham Phoenix,54.1,45.9,Team A,Bowl
+19,Southern Brave,Oval Invincibles,"The Rose Bowl, Southampton",Oval Invincibles,50.8,49.2,Team A,Bowl
+20,Trent Rockets,Manchester Originals,"Trent Bridge, Nottingham",Manchester Originals,50.4,49.6,Team A,Bowl
+21,Welsh Fire,Southern Brave,"Sophia Gardens, Cardiff",Southern Brave,47.6,52.4,Team B,Bowl
+22,London Spirit,Northern Superchargers,"Lord's, London",London Spirit,57.5,42.5,Team A,Bowl
+23,Oval Invincibles,Trent Rockets,"Kennington Oval, London",Oval Invincibles,48.5,51.5,Team B,Bowl
+24,Birmingham Phoenix,Welsh Fire,"Edgbaston, Birmingham",Welsh Fire,51.6,48.4,Team A,Bat
+25,Northern Superchargers,Oval Invincibles,"Headingley, Leeds",Northern Superchargers,41.6,58.4,Team B,Bowl
+26,London Spirit,Southern Brave,"Lord's, London",Southern Brave,61.0,39.0,Team A,Bowl
+27,Welsh Fire,Trent Rockets,"Sophia Gardens, Cardiff",Welsh Fire,61.0,39.0,Team A,Bowl
+28,Manchester Originals,Birmingham Phoenix,"Emirates Old Trafford, Manchester",Manchester Originals,44.6,55.4,Team B,Bowl
+29,Oval Invincibles,London Spirit,"Kennington Oval, London",London Spirit,56.8,43.2,Team A,Bowl
+30,Northern Superchargers,Manchester Originals,"Headingley, Leeds",Northern Superchargers,58.2,41.8,Team A,Bowl
+31,Trent Rockets,Birmingham Phoenix,"Trent Bridge, Nottingham",Trent Rockets,49.7,50.3,Team A,Bowl
+32,Southern Brave,Welsh Fire,"The Rose Bowl, Southampton",Southern Brave,48.6,51.4,Team A,Bat
