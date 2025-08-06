@@ -385,6 +385,7 @@ def update_player_heatmap(match_id):
 # Run the app
 if __name__ == '__main__':
     print("🚀 Starting The Hundred Analytics Dashboard...")
-    print("📊 Dashboard will be available at: http://127.0.0.1:8050")
+    print("📊 Dashboard will be available at: http://0.0.0.0:8050")
     print("🎯 Features: Match Analysis, Tournament Predictions, Team Comparisons, Venue Analysis")
-    app.run_server(debug=True, host='0.0.0.0', port=8050)
+    print("🌐 Access the dashboard from your browser!")
+    app.run_server(debug=False, host='0.0.0.0', port=8050, dev_tools_ui=False)
