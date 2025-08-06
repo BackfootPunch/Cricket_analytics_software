@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏏 The Hundred Cricket Analytics System - Preview</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f8f9fa; }
+        .header { text-align: center; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 10px; margin-bottom: 30px; }
+        .section { background: white; padding: 20px; margin: 20px 0; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .feature { display: inline-block; background: #e8f4f8; padding: 10px 15px; margin: 5px; border-radius: 5px; border-left: 4px solid #007bff; }
+        .result { background: #f0f8e8; padding: 15px; border-radius: 5px; border-left: 4px solid #28a745; margin: 10px 0; }
+        .access-info { background: #fff3cd; padding: 15px; border-radius: 5px; border-left: 4px solid #ffc107; }
+        .code { background: #f8f9fa; padding: 10px; border-radius: 5px; font-family: monospace; margin: 10px 0; }
+        table { width: 100%; border-collapse: collapse; margin: 15px 0; }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+        th { background-color: #f8f9fa; font-weight: bold; }
+        .highlight { color: #007bff; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🏏 The Hundred Cricket Analytics System</h1>
+        <p>Complete analytics suite for The Hundred 2025 tournament</p>
+        <p>✅ <strong>System Status: FULLY OPERATIONAL</strong></p>
+    </div>
+
+    <div class="access-info">
+        <h3>🌐 How to Access the Interactive Dashboard:</h3>
+        <p><strong>Dashboard URL:</strong> <code>http://localhost:8050</code> or <code>http://0.0.0.0:8050</code></p>
+        <p><strong>Status:</strong> ✅ Running and accessible</p>
+        <p><strong>Alternative Access:</strong> Run <code>python hundred_analytics_dash.py</code> from the /app directory</p>
+    </div>
+
+    <div class="section">
+        <h2>📊 System Overview</h2>
+        <p>This is a comprehensive cricket analytics system featuring:</p>
+        <div class="feature">🎯 Match Probability Analysis</div>
+        <div class="feature">🏆 Tournament Simulation (1000 iterations)</div>
+        <div class="feature">⚡ Team Strength Calculations</div>
+        <div class="feature">🏟️ Venue Impact Analysis</div>
+        <div class="feature">📈 Interactive Dashboard</div>
+        <div class="feature">👥 Player Performance Analytics</div>
+    </div>
+
+    <div class="section">
+        <h2>🏆 Current Tournament Predictions</h2>
+        <table>
+            <tr><th>Team</th><th>Championship Probability</th><th>Playoff Probability</th></tr>
+            <tr><td>🥇 Oval Invincibles</td><td class="highlight">19.3%</td><td>76.0%</td></tr>
+            <tr><td>🥈 Birmingham Phoenix</td><td class="highlight">18.0%</td><td>72.9%</td></tr>
+            <tr><td>🥉 London Spirit</td><td class="highlight">15.6%</td><td>70.6%</td></tr>
+            <tr><td>Northern Superchargers</td><td>10.8%</td><td>61.5%</td></tr>
+            <tr><td>Manchester Originals</td><td>10.6%</td><td>62.7%</td></tr>
+            <tr><td>Welsh Fire</td><td>10.2%</td><td>56.9%</td></tr>
+            <tr><td>Southern Brave</td><td>7.8%</td><td>53.6%</td></tr>
+            <tr><td>Trent Rockets</td><td>7.7%</td><td>45.8%</td></tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>🏟️ Venue Insights</h2>
+        <div class="result">
+            <strong>🏏 Most Batting Friendly:</strong> Emirates Old Trafford, Manchester<br>
+            → Batting first wins: 52% | Average score: 156
+        </div>
+        <div class="result">
+            <strong>⚡ Most Bowling Friendly:</strong> The Rose Bowl, Southampton<br>
+            → Batting first wins: 44% | Chasing teams win: 56%
+        </div>
+        <div class="result">
+            <strong>🚀 Highest Scoring:</strong> Trent Bridge, Nottingham<br>
+            → Average first innings: 158 | Run rate: 8.7
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🎯 Sample Match Analysis</h2>
+        <h3>Opening Match: London Spirit vs Oval Invincibles</h3>
+        <div class="result">
+            <strong>Venue:</strong> Lord's, London<br>
+            <strong>Win Probability:</strong> London Spirit 52.5% - 47.5% Oval Invincibles<br>
+            <strong>Key Factor:</strong> Evenly matched teams<br>
+            <strong>Toss Impact:</strong> +15% advantage for optimal decision<br>
+            <strong>Players to Watch:</strong> Wayne Madsen (avg 36.7, SR 146.0) vs Miles Hammond (avg 36.4, SR 160.9)
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🔥 Most Crucial Matches to Watch</h2>
+        <ol>
+            <li><strong>Welsh Fire vs London Spirit</strong> at Sophia Gardens, Cardiff (Importance: 89.8)</li>
+            <li><strong>Northern Superchargers vs Welsh Fire</strong> at Headingley, Leeds (Importance: 89.4)</li>
+            <li><strong>London Spirit vs Oval Invincibles</strong> at Lord's, London (Importance: 88.0)</li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2>🛠️ Available Scripts</h2>
+        <div class="code">
+            # Run complete system<br>
+            python run_analytics.py<br><br>
+            
+            # Launch dashboard only<br>
+            python hundred_analytics_dash.py<br><br>
+            
+            # View system demo<br>
+            python demo.py<br><br>
+            
+            # Test individual components<br>
+            python match_analyzer.py<br>
+            python tournament_simulator.py<br>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>📱 Interactive Dashboard Features</h2>
+        <ul>
+            <li>✅ <strong>Match Selector:</strong> Choose from 32 tournament matches</li>
+            <li>✅ <strong>Toss Simulation:</strong> Interactive toss winner and decision controls</li>
+            <li>✅ <strong>Win Probability Gauge:</strong> Real-time circular gauge visualization</li>
+            <li>✅ <strong>Tournament Charts:</strong> Championship probability bar charts</li>
+            <li>✅ <strong>Team Radar Plots:</strong> Multi-dimensional team strength comparison</li>
+            <li>✅ <strong>Venue Analysis:</strong> Batting vs bowling venue characteristics</li>
+            <li>✅ <strong>Player Heatmaps:</strong> Team matchup analysis</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>📊 System Data</h2>
+        <table>
+            <tr><th>Component</th><th>Count</th><th>Status</th></tr>
+            <tr><td>Total Matches</td><td>32</td><td>✅ Complete</td></tr>
+            <tr><td>Teams</td><td>8</td><td>✅ Complete</td></tr>
+            <tr><td>Players</td><td>127</td><td>✅ Complete</td></tr>
+            <tr><td>Venues</td><td>8</td><td>✅ Complete</td></tr>
+            <tr><td>Tournament Simulations</td><td>1000</td><td>✅ Complete</td></tr>
+            <tr><td>CSV Data Files</td><td>8</td><td>✅ Generated</td></tr>
+        </table>
+    </div>
+
+    <div class="access-info">
+        <h3>🎮 Next Steps:</h3>
+        <ol>
+            <li><strong>Access Dashboard:</strong> Open <code>http://localhost:8050</code> in your browser</li>
+            <li><strong>Try Match Analysis:</strong> Select different matches and toss scenarios</li>
+            <li><strong>Explore Team Comparisons:</strong> Check the radar charts</li>
+            <li><strong>Analyze Venues:</strong> See batting vs bowling characteristics</li>
+            <li><strong>Run Demo:</strong> Execute <code>python demo.py</code> for full showcase</li>
+        </ol>
+    </div>
+
+    <div style="text-align: center; margin-top: 40px; color: #6c757d;">
+        <p>🏏 The Hundred Analytics System - Built with Python, Plotly, and Dash</p>
+        <p>Complete cricket analytics solution for tournament predictions and match analysis</p>
+    </div>
+</body>
+</html>
