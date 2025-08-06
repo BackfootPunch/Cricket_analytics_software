@@ -136,22 +136,23 @@ class TournamentSimulator:
             return playoff_teams['top_3'][0] if playoff_teams['top_3'] else self.teams[0]
         
         # Simplified playoff simulation
-        # In real Hundred: Eliminator, then Final
-        # Here we simulate a final between top 2 teams
-        
+        # Direct final between top 2 teams based on their ratings
         team1 = playoff_teams['top_3'][0]  # Highest ranked
         team2 = playoff_teams['top_3'][1]  # Second highest
         
-        # Create a dummy match for the final
-        final_match = {
-            'Match_ID': 999,  # Dummy ID
-            'Team1': team1,
-            'Team2': team2,
-            'Venue': "Lord's, London"  # Traditional final venue
-        }
+        # Get team ratings for final simulation
+        team1_rating = self.analyzer.get_team_rating(team1)['overall']
+        team2_rating = self.analyzer.get_team_rating(team2)['overall']
         
-        final_result = self.simulate_single_match(final_match)
-        return final_result['winner']
+        # Calculate win probability (team1 has slight advantage as higher seed)
+        base_prob = 50 + (team1_rating - team2_rating) * 1.2 + 3  # 3% home advantage
+        team1_prob = max(30, min(70, base_prob)) / 100  # Cap between 30-70%
+        
+        # Simulate the final
+        if random.random() < team1_prob:
+            return team1
+        else:
+            return team2
     
     def run_simulation(self) -> dict:
         """Run a single tournament simulation"""
